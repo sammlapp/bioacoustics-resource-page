@@ -1,0 +1,18 @@
+title: Bioacoustics & Passive Acoustic Monitoring (PAM) Resources
+description: >-
+  A curated list of software, classifiers, datasets, hardware guides, courses,
+  and community resources for bioacoustics and passive acoustic monitoring
+  (PAM) research, including BirdNET, OpenSoundscape, AudioMoth, and more.
+lang: en-US
+url: "https://sammlapp.github.io"
+baseurl: "/bioacoustics-resource-page"
+
+theme: jekyll-theme-primer
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+author: Sam Lapp
+twitter:
+  card: summary

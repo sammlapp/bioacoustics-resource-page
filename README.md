@@ -1,6 +1,6 @@
-# **Bioacoustics Resource Page**
+# **Bioacoustics & Passive Acoustic Monitoring (PAM) Resources**
 
-A list curated by Sam Lapp and the [Kitzes Lab](http://kitzeslab.org) 
+A curated list of software (e.g., Dipper, OpenSoundscape, BirdNET, Chirpity, etc), machine learning classifiers (e.g. BirdNET, HawkEars, Perch), datasets, ARU hardware guides (e.g. AudioMoth), courses, and community forums for bioacoustics and passive acoustic monitoring (PAM) research — curated by [Sam Lapp](https://samlapp.com) and the [Kitzes Lab](https://kitzeslab.org).
 
 hint: bookmark this page :) 
 

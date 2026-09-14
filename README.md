@@ -4,6 +4,15 @@ A list curated by Sam Lapp and the [Kitzes Lab](http://kitzeslab.org)
 
 hint: bookmark this page :) 
 
+contributing: email Sam or open an issue or PR on [GitHub](https://github.com/sammlapp/bioacoustics-resource-page)
+
+### **Desktop PAM Analysis Software**
+* [Dipper](https://github.com/sammlapp/dipper): a desktop app for applying classifiers and rapidly verifying detections
+* [HawkEars GUI](https://github.com/jhuus/HawkEars/blob/main/GUI.md): a desktop app for running the HawkEars North American regional classifier and reviewing detections
+* [Chirpity](https://chirpity.net/): a desktop app for analyzing recordings with BirdNET or nocturnal flight calls and reviewing detections
+* [BirdNET Analyzer](https://birdnet.cornell.edu/analyzer/): a desktop app for analyzing recordings with BirdNET, developing custom classifiers, extracting embeddings, and reviewing detections
+* [Raven Intelligence](https://www.ravensoundsoftware.com/software/raven-workbench/raven-intelligence/): a new desktop app under development by Cornell for applying classifiers
+
 ### **Bioacoustics workshops & guides**
 
 * [Bioacoustics Classifier Bootcamp: Course Materials](https://docs.google.com/document/d/1snKiwX0t5NyBaN5WaBC9u89V52JBKmDsGa6hjnGc1_o/edit?tab=t.lypwr6ml9wvo)  
@@ -41,9 +50,10 @@ hint: bookmark this page :)
 * [Github Bioacoustics datasets list](https://bioacoustic-ai.github.io/bioacoustics-datasets/) (open-source, the most complete list)  
   * Spreadsheet of [annotated bird sound datasets](https://docs.google.com/spreadsheets/d/1KrmCB0vvSK7V3znJfycO-eOMZJKP2F-Ih6neRYPz1Xc/edit#gid=0)  
   * Another list of [annotated bioacoustics datasets](https://lila.science/otherdatasets#bioacoustics) from [Lila.bc](http://Lila.bc)  
-* Benchmark datasets (for comparing machine learning model performance):  
+* Benchmark datasets (for comparing machine learning model performance):
+  * [WABAD](https://zenodo.org/records/14191524) worldwide annotated PAM dataset collection
   * [BEANS](https://github.com/earthspecies/beans) detection and classification benchmark  
-  * [BirdSET](https://github.com/DBD-research-group/BirdSet) bird classification benchmark  
+  * [BirdSET](https://github.com/DBD-research-group/BirdSet) bird classification benchmark
 * [Bioacoustics software list](https://github.com/rhine3/bioacoustics-software): current software for a wide variety of bioacoustics tasks
 
 
@@ -55,7 +65,7 @@ hint: bookmark this page :)
 * [Bioacoustics feed](https://bsky.app/profile/daryllmarie.bsky.social/feed/aaaivfksmfg3o) on Bluesky
 
 ### **OpenSoundscape**
-  Our lab’s open-source package for bioacoustic analysis
+  The Kitzes lab’s open-source package for bioacoustic analysis
 
 * [Documentation and tutorials](https://opensoundscape.org)  
 * [Classifiers 101 guide](https://opensoundscape.org/en/latest/classifier_guide/guide.html)  
@@ -95,7 +105,7 @@ hint: bookmark this page :)
 * [GitHub for Raspberry Pi SD card aggregators (Swallows)](https://github.com/kitzeslab/swallow)
 
 ### **Annotation**
-
+* [Dipper](https://github.com/sammlapp/dipper): a desktop app for rapid clip verification
 * [Audacity](https://www.audacityteam.org/download/): a desktop program for listening to audio data and viewing spectrograms  
 * [Kitzes Lab’s Annotation Guide](https://docs.google.com/document/d/14WmQz3oBJUPTkPq2Q9BPToQ1F97wUqn_XCTNwrE7mRU/edit#heading=h.nlo85n1esrhc) step-by-step guide for annotating audio in Raven Pro/Lite  
 * [Raven Pro](https://ravensoundsoftware.com/software/raven-pro/) subscription-based annotation software   

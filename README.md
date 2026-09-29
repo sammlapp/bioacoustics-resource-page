@@ -37,15 +37,7 @@ contributing: email Sam or open an issue or PR on [GitHub](https://github.com/sa
 * [Review paper](https://pmc.ncbi.nlm.nih.gov/articles/PMC8944344/) on computational bioacoustics with deep learning by Dan Stowell  
 * [Kaggle](https://www.google.com/search?q=kaggle+birdclef&rlz=1C5GCCM_en&oq=kaggle+birdclef&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDgxNTVqMGoxqAIAsAIA&sourceid=chrome&ie=UTF-8) \- examples of how people solved ML bioacoustics tasks (e.g. blog posts)
 
-  ### **General data science lessons**
-
-* [Data science & computing cheat sheet](https://docs.google.com/document/d/1YbOYnDZpRu6Jo1mpfg8m_zGeyY34NGECyxk2rNkH5eo/edit?tab=t.0) \- an informal guide to the “hidden curriculum” of tools needed to do computational ecology, plus our favorite commands   
-* [Data Science Lessons](http://datasci.kitzes.com/) – materials for two-day introductory data science workshops  
-  * see in particular the \~2-hour self-paced [tutorial on git and GitHub](http://datasci.kitzes.com/lessons/git/)  
-* [Software Carpentry lessons](https://software-carpentry.org/lessons/) – introductory tutorials on computing and data science  
-* [The Practice of Reproducible Research](http://www.practicereproducibleresearch.org/) – online version of book edited by Justin Kitzes on reproducibility, see in particular the [Basic Reproducible Workflow Template](http://www.practicereproducibleresearch.org/core-chapters/3-basic.html) chapter
-
-  ### **Data and Software Compilations**
+### **Data and Software Compilations**
 
 * [Github Bioacoustics datasets list](https://bioacoustic-ai.github.io/bioacoustics-datasets/) (open-source, the most complete list)  
   * Spreadsheet of [annotated bird sound datasets](https://docs.google.com/spreadsheets/d/1KrmCB0vvSK7V3znJfycO-eOMZJKP2F-Ih6neRYPz1Xc/edit#gid=0)  
@@ -65,7 +57,7 @@ contributing: email Sam or open an issue or PR on [GitHub](https://github.com/sa
 * [Bioacoustics feed](https://bsky.app/profile/daryllmarie.bsky.social/feed/aaaivfksmfg3o) on Bluesky
 
 ### **OpenSoundscape**
-  The Kitzes lab’s open-source package for bioacoustic analysis
+Sam Lapp and the Kitzes lab’s open-source package for bioacoustic analysis
 
 * [Documentation and tutorials](https://opensoundscape.org)  
 * [Classifiers 101 guide](https://opensoundscape.org/en/latest/classifier_guide/guide.html)  
@@ -111,28 +103,39 @@ contributing: email Sam or open an issue or PR on [GitHub](https://github.com/sa
 * [Raven Pro](https://ravensoundsoftware.com/software/raven-pro/) subscription-based annotation software   
 * [Raven Lite](https://ravensoundsoftware.com/software/raven-lite/) free version of Raven Pro but with somewhat limited functionality,  
   * e.g., can only use one free text entry column for annotations in an annotation table  
-* [Whombat](https://github.com/mbsantiago/whombat?tab=readme-ov-file) an open-source annotation tool currently under development
+* [Whombat](https://github.com/mbsantiago/whombat?tab=readme-ov-file) an open-source annotation tool for annotation projects
 
 ### **Classification / Analysis packages**
 
-* [Classifiers 101 guide](https://opensoundscape.org/en/latest/classifier_guide/guide.html): step-by-step guide on developing machine learning recognizers for biological sounds  
-* [OpenSoundscape](http://opensoundscape.org/): our lab’s Python package for bioacoustic analyses and recognizer development  
-* [Bioacoustics Model Zoo](https://github.com/kitzeslab/bioacoustics-model-zoo): suite of pretrained ML models compatible with OpenSoundscape  
-* [Batdetect2](https://github.com/macaodha/batdetect2/tree/main/batdetect2): bat detection and classification toolkit  
-* [Koogu](https://github.com/shyamblast/Koogu/tree/master/koogu/model): toolkit for training bioacoustic classifiers with PyTorch  
+* [OpenSoundscape](http://opensoundscape.org/): Sam Lapp + the Kitzes lab’s Python package for bioacoustic analyses and recognizer development  
+* [Bioacoustics Model Zoo](https://github.com/kitzeslab/bioacoustics-model-zoo): suite of pretrained ML models provided with a simple and unified API
+* [Classifiers 101 guide](https://opensoundscape.org/en/latest/classifier_guide/guide.html): step-by-step guide on developing machine learning recognizers for biological sounds
 * [BirdNET](https://github.com/kahst/BirdNET-Analyzer): global bird classification model by the Cornell Lab of Ornithology  
+* [Chirp Agile modeling tutorial notebooks]([https://colab.research.google.com/drive/1gPBu2fyw6aoT-zxXFk15I2GObfMRNHUq?authuser=1#scrollTo=wxJv5CgoD-sM](https://github.com/google-research/perch-hoplite/tree/9734e44758885f93b79c1b385ba74cb4ca9e250e#perch-hoplite) resources for quickly creating a classifier, including using embedding search to find training samples
+* [BacPipe bioacoustics analysis workflows in Python]([https://github.com/bioacoustic-ai/bacpipe#bacpipe-includes-a-dashboard-visualization-by-default-allowing-you-to-easily-explore-the-generated-embeddings](https://github.com/bioacoustic-ai/bacpipe) develop and run classifiers, visually explore embedding spaces
+* [Koogu](https://github.com/shyamblast/Koogu/tree/master/koogu/model): toolkit for training bioacoustic classifiers with PyTorch  
+
+#### **Model-specific packages**
+* [Batdetect2](https://github.com/macaodha/batdetect2/tree/main/batdetect2): bat detection and classification toolkit  
 * [Perch](https://www.kaggle.com/models/google/bird-vocalization-classifier): Google global bird vocalization classifier; see variants for [coral reefs](https://www.kaggle.com/models/google/surfperch) and [whales](https://research.google/blog/whistles-songs-boings-and-biotwangs-recognizing-whale-vocalizations-with-ai/)  
 * [Kaleidoscope Pro](https://www.wildlifeacoustics.com/products/kaleidoscope): pre-trained classifier for bats; other classification methods available. Pricey/paid software  
-* [https://github.com/kitzeslab/r-ribbit](https://github.com/kitzeslab/r-ribbit) Implementation of the RIBBIT method (identify calls with repeated structure) for R (Note: we don’t update it, so we recommend using Python & OpenSoundscape)   
-* [Agile modeling tutorial notebook](https://colab.research.google.com/drive/1gPBu2fyw6aoT-zxXFk15I2GObfMRNHUq?authuser=1#scrollTo=wxJv5CgoD-sM) resources for quickly creating a classifier, including using embedding search to find training samples, see also [readme](https://github.com/google-research/perch?tab=readme-ov-file#agile-modeling)  
-  * Note: this functionality is being ported to the perch-hoplite [repo](https://github.com/google-research/perch-hoplite?tab=readme-ov-file)
-
+* [RIBBIT in R](https://github.com/kitzeslab/r-ribbit) Implementation of the RIBBIT method (detect calls with repeated-note structures) for R (Note: we don’t maintain it, so we recommend using Python & OpenSoundscape)   
+* [HawkEars](https://github.com/jhuus/HawkEars/tree/main) a high-performing regional bird classification model + package for North America
+* [BirdCODE](https://github.com/earthspecies/sound-event-detection) a global bird song classifier for sound event detection and classification
 
 ### **Occupancy modeling**
 
 * [Continuous-score occupancy model](https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.13905) \- a new approach for interpretation of deep learning model outputs  
 * [From species identification to occupancy modeling](https://ecoforecast.org/workshops/statistical-methods-seminar-series/#ai-python) \- a workflow and demonstration of how to run a machine learning classifier (here for camera traps) and incorporate the results into an occupancy model
 
+### **General data science lessons**
+
+* [Data science & computing cheat sheet](https://docs.google.com/document/d/1YbOYnDZpRu6Jo1mpfg8m_zGeyY34NGECyxk2rNkH5eo/edit?tab=t.0) \- an informal guide to the “hidden curriculum” of tools needed to do computational ecology, plus our favorite commands   
+* [Data Science Lessons](http://datasci.kitzes.com/) – materials for two-day introductory data science workshops  
+  * see in particular the \~2-hour self-paced [tutorial on git and GitHub](http://datasci.kitzes.com/lessons/git/)  
+* [Software Carpentry lessons](https://software-carpentry.org/lessons/) – introductory tutorials on computing and data science  
+* [The Practice of Reproducible Research](http://www.practicereproducibleresearch.org/) – online version of book edited by Justin Kitzes on reproducibility, see in particular the [Basic Reproducible Workflow Template](http://www.practicereproducibleresearch.org/core-chapters/3-basic.html) chapter
+  
 ### **Other resources**
 
 * [Graphic Design for Ecology resources](https://docs.google.com/document/d/15n8lyXn0Z7WoQee6U4Z1b1G_Zv5UEjui24k0OnPYRuM/edit)  

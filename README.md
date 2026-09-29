@@ -37,6 +37,9 @@ contributing: email Sam or open an issue or PR on [GitHub](https://github.com/sa
 * [Review paper](https://pmc.ncbi.nlm.nih.gov/articles/PMC8944344/) on computational bioacoustics with deep learning by Dan Stowell  
 * [Kaggle](https://www.google.com/search?q=kaggle+birdclef&rlz=1C5GCCM_en&oq=kaggle+birdclef&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDgxNTVqMGoxqAIAsAIA&sourceid=chrome&ie=UTF-8) \- examples of how people solved ML bioacoustics tasks (e.g. blog posts)
 
+### **Data and Analysis Platforms**
+* [WildTrax](https://wildtrax.ca/) Open-source data access and management for Canadian bird monitoring projects
+  
 ### **Data and Software Compilations**
 
 * [Github Bioacoustics datasets list](https://bioacoustic-ai.github.io/bioacoustics-datasets/) (open-source, the most complete list)  
